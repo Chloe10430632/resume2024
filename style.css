@@ -1,0 +1,396 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  font-family: 蘋方體, -apple-system, BlinkMacSystemFont, sans-serif, 黑體-繁, SF Pro, Noto Sans TC, Microsoft JhengHei, Helvetica Neue Bold, Arial, Helvetica;
+  font-size: 9px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+body {
+  margin: 0px;
+  min-height: 100vh;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .CV {
+  height: 707px;
+  width: 500px;
+  border: solid 0.5px #ddd;
+  background-color: #fff;
+  box-shadow: 0px 30px 15px -20px rgba(0, 0, 0, 0.4);
+  display: flex;
+}
+body .CV .left, body .CV .right {
+  display: inline-block;
+  vertical-align: top;
+  height: 100%;
+}
+body .CV .left {
+  width: 25%;
+  position: relative;
+  overflow: hidden;
+}
+body .CV .left .left-word {
+  font-size: 105px;
+  font-weight: 800;
+  color: #76DD59;
+  display: inline-block;
+}
+body .CV .left .w {
+  transform: rotate(-20deg);
+  position: absolute;
+  top: -50px;
+  left: -25px;
+}
+body .CV .left .e {
+  transform: rotate(30deg);
+  position: absolute;
+  top: 0px;
+  right: -19px;
+}
+body .CV .left .b {
+  transform: rotate(15deg);
+  position: absolute;
+  top: 60px;
+  left: -10px;
+}
+body .CV .left .s {
+  transform: rotate(-20deg);
+  position: absolute;
+  top: 110px;
+  right: -20px;
+}
+body .CV .left .i {
+  transform: rotate(-10deg);
+  position: absolute;
+  top: 170px;
+  right: 38px;
+}
+body .CV .left .t {
+  transform: rotate(40deg);
+  position: absolute;
+  top: 190px;
+  left: -28px;
+}
+body .CV .left .e2 {
+  transform: rotate(20deg);
+  position: absolute;
+  top: 245px;
+  right: -28px;
+}
+body .CV .left .f {
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 280px;
+  left: -2px;
+}
+body .CV .left .r {
+  transform: rotate(-30deg);
+  position: absolute;
+  top: 380px;
+  left: -30px;
+}
+body .CV .left .o {
+  transform: rotate(15deg);
+  position: absolute;
+  top: 350px;
+  right: -25px;
+}
+body .CV .left .n2 {
+  transform: rotate(-30deg);
+  position: absolute;
+  top: 480px;
+  left: -70px;
+}
+body .CV .left .t2 {
+  transform: rotate(25deg);
+  position: absolute;
+  top: 480px;
+  left: 24px;
+}
+body .CV .left .e3 {
+  transform: rotate(30deg);
+  position: absolute;
+  top: 520px;
+  right: -28px;
+}
+body .CV .left .n3 {
+  transform: rotate(-39deg);
+  position: absolute;
+  top: 590px;
+  left: -39px;
+}
+body .CV .left .d {
+  transform: rotate(18deg);
+  position: absolute;
+  top: 615px;
+  right: -13px;
+}
+body .CV .right {
+  width: 75%;
+}
+body .CV .right .r-top {
+  height: 40%;
+}
+body .CV .right .r-top .hello {
+  font-size: 22px;
+  font-weight: 800;
+  margin-left: 80px;
+  text-align: center;
+}
+body .CV .right .r-top .job {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.4px;
+  margin-left: 80px;
+  margin-top: -20px;
+  margin-bottom: -10px;
+  text-align: center;
+}
+body .CV .right .r-top .info, body .CV .right .r-top .pic {
+  display: inline-block;
+  vertical-align: bottom;
+  margin-top: 40px;
+}
+body .CV .right .r-top .info {
+  margin-left: 20px;
+  margin-right: 20px;
+  letter-spacing: 0.4px;
+  line-height: 15px;
+  position: relative;
+  top: 10px;
+}
+body .CV .right .r-top .pic {
+  position: relative;
+}
+body .CV .right .r-top .pic .circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  background-color: #76DD59;
+  overflow: hidden;
+}
+body .CV .right .r-top .pic .circle1 {
+  position: relative;
+  top: 10px;
+  left: -10px;
+}
+body .CV .right .r-top .pic .circle2 {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+body .CV .right .r-top .pic .pic-circle {
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+}
+body .CV .right .r-top .pic .pic-circle img {
+  position: relative;
+  left: -100px;
+  top: -155px;
+}
+body .CV .right .r-bottom {
+  height: 60%;
+}
+body .CV .right .r-bottom .rb-top {
+  height: 41%;
+}
+body .CV .right .r-bottom .rb-top .rb-top-L, body .CV .right .r-bottom .rb-top .rb-top-R {
+  display: inline-block;
+  vertical-align: top;
+}
+body .CV .right .r-bottom .rb-top .rb-top-L {
+  width: 47%;
+  height: 100%;
+  margin-left: 20px;
+  margin-right: 27px;
+  position: relative;
+}
+body .CV .right .r-bottom .rb-top .rb-top-L .titledash {
+  margin-top: 1px;
+  margin-left: 0px;
+  height: 8px;
+  width: 70px;
+  background-color: #76DD59;
+}
+body .CV .right .r-bottom .rb-top .rb-top-L .title {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.4px;
+}
+body .CV .right .r-bottom .rb-top .rb-top-L .title1 {
+  position: absolute;
+  top: -20px;
+  left: 2px;
+}
+body .CV .right .r-bottom .rb-top .rb-top-L .subtitle {
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  margin-top: 15px;
+  margin-bottom: -5px;
+}
+body .CV .right .r-bottom .rb-top .rb-top-L .time {
+  margin-bottom: -5px;
+  letter-spacing: 0.6px;
+  color: #76DD59;
+}
+body .CV .right .r-bottom .rb-top .rb-top-L .p {
+  letter-spacing: 0.6px;
+  line-height: 15px;
+  margin-bottom: -4px;
+}
+body .CV .right .r-bottom .rb-top .rb-top-R {
+  position: relative;
+  width: 32%;
+  height: 100%;
+}
+body .CV .right .r-bottom .rb-top .rb-top-R .titledash {
+  margin-top: 1px;
+  margin-left: 0px;
+  height: 8px;
+  width: 70px;
+  background-color: #76DD59;
+}
+body .CV .right .r-bottom .rb-top .rb-top-R .dash2 {
+  width: 110px;
+  top: -10px;
+}
+body .CV .right .r-bottom .rb-top .rb-top-R .subtitle {
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  margin-top: 15px;
+  margin-bottom: -5px;
+}
+body .CV .right .r-bottom .rb-top .rb-top-R .title {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.4px;
+}
+body .CV .right .r-bottom .rb-top .rb-top-R .title2 {
+  position: absolute;
+  top: -20px;
+  left: 2px;
+}
+body .CV .right .r-bottom .rb-top .rb-top-R .skill1 {
+  font-size: 9px;
+  height: 20px;
+}
+body .CV .right .r-bottom .rb-top .rb-top-R .skill1 .liner0 {
+  height: 2px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: 5px;
+  border-radius: 10px;
+}
+body .CV .right .r-bottom .rb-top .rb-top-R .skill1 .liner0 .liner1 {
+  margin: 0px;
+  height: 2px;
+  width: 50%;
+  background-color: #76DD59;
+  border-radius: 10px;
+}
+body .CV .right .r-bottom .rb-top .rb-top-R .skill2 {
+  font-size: 9px;
+  height: 20px;
+}
+body .CV .right .r-bottom .rb-top .rb-top-R .skill2 .liner0 {
+  height: 2px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: 5px;
+  border-radius: 10px;
+}
+body .CV .right .r-bottom .rb-top .rb-top-R .skill2 .liner0 .liner2 {
+  margin: 0px;
+  height: 2px;
+  width: 50%;
+  background-color: #76DD59;
+  border-radius: 10px;
+}
+body .CV .right .r-bottom .rb-top .rb-top-R .skill2 .liner0 .liner3, body .CV .right .r-bottom .rb-top .rb-top-R .skill2 .liner0 .liner4 {
+  margin: 0px;
+  height: 2px;
+  width: 40%;
+  background-color: #76DD59;
+  border-radius: 10px;
+}
+body .CV .right .r-bottom .rb-bottom {
+  height: 59%;
+}
+body .CV .right .r-bottom .rb-bottom .rb-bottom-L, body .CV .right .r-bottom .rb-bottom .rb-bottom-R {
+  display: inline-block;
+  width: 45%;
+  height: 100%;
+  vertical-align: top;
+}
+body .CV .right .r-bottom .rb-bottom .rb-bottom-L {
+  margin-left: 20px;
+  position: relative;
+}
+body .CV .right .r-bottom .rb-bottom .rb-bottom-L .titledash {
+  margin-top: 1px;
+  margin-left: 0px;
+  height: 8px;
+  width: 70px;
+  background-color: #76DD59;
+}
+body .CV .right .r-bottom .rb-bottom .rb-bottom-L .dash3 {
+  width: 76px;
+}
+body .CV .right .r-bottom .rb-bottom .rb-bottom-L .subtitle {
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  margin-top: 15px;
+  margin-bottom: -5px;
+}
+body .CV .right .r-bottom .rb-bottom .rb-bottom-L .title {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.4px;
+}
+body .CV .right .r-bottom .rb-bottom .rb-bottom-L .title3 {
+  position: absolute;
+  top: -20px;
+  left: 2px;
+}
+body .CV .right .r-bottom .rb-bottom .rb-bottom-R {
+  margin-left: 10px;
+  padding-top: 9px;
+}
+body .CV .right .r-bottom .rb-bottom .rb-bottom-R .titledash {
+  margin-top: 1px;
+  margin-left: 0px;
+  height: 8px;
+  width: 70px;
+}
+body .CV .right .r-bottom .rb-bottom .rb-bottom-R .dash2 {
+  width: 110px;
+  top: -10px;
+}
+body .CV .right .r-bottom .rb-bottom .rb-bottom-R .subtitle {
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  margin-top: 15px;
+  margin-bottom: -5px;
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    margin: 0px;
+    min-height: 100vh;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body .CV {
+    transform: scale(1.8);
+  }
+}
